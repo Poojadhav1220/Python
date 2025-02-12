@@ -1,0 +1,29 @@
+a = input("Enter your name:")
+
+b = input("Enter your choice:")
+
+if b=="sports":
+    print(f"welcome {a}")
+    print("venue is play-ground")
+
+elif b=="Dance":
+    print(f"welcome {a}")
+    print("venue is auditorium")
+
+elif b=="Singing":
+    print(f"welcome {a}")
+    print("venue is second floor")
+
+elif b=="Play":
+    print(f"welcome {a}")
+    print("venue is hall")
+
+elif b=="concert":
+    print(f"welcome {a}")
+    print("venue is club")
+
+else:
+    print("sorry! please enter your choice")
+
+
+
